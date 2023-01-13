@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="stylesheet.css" type="text/css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>CSAW CHALLENGE LIECHTENECKER</title>
+    </head>
+    <body>
+        <header>
+            <h1>CSAW Coding Challenge</h1>
+            <p>solved by</p>
+            <h1>Michael Otto Liechtenecker</h1>
+        </header>
+        <div id="container">
+            <button class="increase" onclick="increment()">
+                <h2>+</h2>
+            </button>
+        </div>
+        <div class="display">
+            <h2 id="counting">0</h2>
+            
+        </div>
+        <div id="container">
+            <button class="decrease" id="decrementButton" disabled onclick="decrement()">
+                <h2>-</h2>
+                <p id="warning">Counter cannot be smaller than 0</p>
+            </button>
+        </div>
+    </body>
+</html>
