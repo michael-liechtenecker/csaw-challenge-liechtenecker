@@ -7,10 +7,10 @@
 
 header{
     width: 100vw;
-    height: auto;
+    height: 30vh;
     background-color: #e8dfce;
     border: 1px solid black;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 button{
@@ -72,6 +72,6 @@ button:disabled{
     height: 35vh;
     border: 1px solid black;
     background-color: #e8dfce;
-    font-size: 20vh;
+    font-size: 19vh;
     font-weight: bold;
 }
