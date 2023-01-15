@@ -7,8 +7,7 @@ function increment() {
         document.getElementById("decrementButton").disabled = false;
     }
     data = data + 1;
-    document.getElementById("counting").innerText = data;
-    
+    document.getElementById("counting").innerText = data; 
 }
 
 //decrement function
@@ -22,5 +21,4 @@ function decrement() {
         document.getElementById("decrementButton").disabled = true; 
         document.getElementById("warning").innerText = "Counter cannot be smaller than 0"; 
     }
-
 }
